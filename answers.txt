@@ -1,0 +1,72 @@
+1)What is Virtual DOM?
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. 
+-This process is called reconciliation.
+
+2)What is React Lifecycle ?
+Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+
+The three phases are: Mounting, Updating, and Unmounting.
+
+-Mounting means putting elements into the DOM.
+
+React has four built-in methods that gets called, in this order, when mounting a component:
+
+*constructor()
+*getDerivedStateFromProps()
+*render()
+*componentDidMount()
+
+-The next phase in the lifecycle is when a component is updated.
+
+A component is updated whenever there is a change in the component's state or props.
+
+React has five built-in methods that gets called, in this order, when a component is updated:
+
+*getDerivedStateFromProps()
+*shouldComponentUpdate()
+*render()
+*getSnapshotBeforeUpdate()
+*componentDidUpdate()
+
+-The next phase in the lifecycle is when a component is removed from the DOM, or unmounting as React likes to call it.
+
+React has only one built-in method that gets called when a component is unmounted:
+
+*componentWillUnmount()
+
+3)What are hooks and their type?
+
+-Hooks allow function components to have access to state and other React features. 
+-Because of this, class components are generally no longer needed.
+
+-Basic Hooks
+
+*useState
+*useEffect
+*useContext
+
+-Additional Hooks
+
+*useReducer
+*useCallback
+*useMemo
+*useRef
+*useImperativeHandle
+*useLayoutEffect
+*useDebugValue
+
+4) What is prop in react ?
+Props are arguments passed into React components.
+
+Props are passed to components via HTML attributes.
+
+props stands for properties
+
+*Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another. 
+-But the important part here is that data with props are being passed in a uni-directional flow. 
+
+5. What is React? 
+React allows developers to create large web applications that can change data, without reloading the page. 
+-The main purpose of React is to be fast, scalable, and simple. 
+-It works only on user interfaces in the application. 
+-This corresponds to the view in the MVC template.
