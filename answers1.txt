@@ -1,0 +1,97 @@
+6. What is map in JavaScript? 
+Definition and Usage. map() creates a new array from calling a function for every array element. 
+-map() calls a function once for each element in an array. map() does not execute the function for empty elements.
+-map() does not change the original array.
+
+-map() creates a new array from calling a function for every array element.
+
+-map() calls a function once for each element in an array.
+
+-map() does not execute the function for empty elements.
+
+-map() does not change the original array.
+
+7) How to change the embedded server in spring boot? 
+
+-By default, the Spring Boot framework uses 
+-Tomcat as the embedded server of choice.
+-However,you could override this default setting by specifying certain configuration settings. 
+-For instance, if you want to use a Jetty dependency instead, then use an element in the XML configuration file, 
+and specify a element as well:
+-we created a web-based Spring Boot application that uses Embedded Tomcat as the default server running on the default port, 8080. 
+-Spring Boot supports Tomcat, Undertow, and Jetty as embedded servers. 
+-Now, we will change and/or configure the default embedded server and common properties to all the available servers.
+
+8) What is HashMap?
+
+-HashMap is a collection class in Java. You can use it to store key and value pairs. 
+-Its performance depends on the initial capacity and the load factor.
+-HashMap is a collection class in Java. 
+-You can use it to store key and value pairs. 
+-Its performance depends on the initial capacity and the load factor. 
+-HashMap has various methods that allow you to use its hash table data structure. 
+-HashMap allows null values and the null key.
+-Also, HashMap doesn’t sort the stored keys and values. If you want to use the HashMap class and its methods, you’ll have to import java.util.HashMap (or its superclass).
+-HashMap implements a Serializable and Cloneable interface.
+
+9) What are JSX, Call back Function?
+
+-JSX stands for JavaScript XML.
+
+-JSX allows us to write HTML in React.
+
+-JSX makes it easier to write and add HTML in React.
+-JSX allows us to write HTML elements in JavaScript and place them in the DOM without
+ any createElement()  and/or appendChild() methods.
+
+*Using JSX, you may write succinct HTML/XML-like structures 
+(e.g., DOM-like tree structures) in the same file as JavaScript code, 
+and Babel will convert these expressions into actual JavaScript code. 
+*Instead of putting JavaScript into HTML as in the past, 
+*JSX allows us to put HTML into JavaScript.
+
+10) What is list, Tree set, Final & Finally, Spring? 
+
+TreeSet is one of the most important implementations of the SortedSet interface in Java that uses a Tree for storage. 
+*The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. 
+*This must be consistent with equals if it is to correctly implement the Set interface.  
+-TreeSet is basically an implementation of a self-balancing binary search tree like a Red-Black Tree. 
+*Therefore operations like add, remove, and search takes O(log(N)) time. 
+*The reason is that in a self-balancing tree, it is made sure that the height of the tree is always O(log(N)) for all the operations.
+-The final keyword can be used with class method and variable. 
+*A final class cannot be inherited, a final method cannot be overridden and a final variable cannot be reassigned. 
+-The finally keyword is used to create a block of code that follows a try block
+
+11) What is MongoDB?
+MongoDB is an open source NoSQL database management program. 
+*NoSQL is used as an alternative to traditional relational databases. 
+*NoSQL databases are quite useful for working with large sets of distributed data. 
+*MongoDB is a tool that can manage document-oriented information, store or retrieve information.
+
+12) What is State hook?
+*useState is a Hook that allows you to have state variables in functional components. 
+*You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value.
+
+13) What is the output of console.log(a) statement?
+*The console. log() method outputs a message to the web console. 
+*The message may be a single string (with optional substitution values), or it may be any one or more JavaScript objects
+
+14)What are Error boundaries?
+*Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. 
+*Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+
+15)write code to create button in functional component? 
+
+import React from 'react';
+
+const Button = () => {
+    return (
+        <button className="button">
+            Generate Countdown
+        </button>
+    )
+}
+
+export default Button;
+
+16)
