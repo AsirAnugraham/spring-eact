@@ -94,4 +94,66 @@ const Button = () => {
 
 export default Button;
 
-16)
+16)What is overloading?
+
+Overloading refers to the ability to use a single identifier to define multiple methods of a class that differ in their input and output parameters. 
+*Overloaded methods are generally used when they conceptually execute the same task but with a slightly different set of parameters.
+
+17)What are methods in React?
+React has four built-in methods that gets called, in this order, when mounting a component: 
+*constructor () 
+*getDerivedStateFromProps () 
+*render () 
+*componentDidMount ()
+
+18)Explain static and dynamic overloading?
+-Static polymorphism : Same method name is overloaded with different type or number of parameters in same class (different signature). 
+*Targeted method call is resolved at compile time. 
+-Dynamic polymorphism: Same method is overridden with same signature in different classes.
+
+19)What UseState and UseEffect do?
+*In simple words, useState allows our functional components which used to be stateless become stateful. 
+*And useEffect allows our functional components leverage the component lifecycle hooks which were, in the past, only supported for class components.
+
+20)How many times can we use USeEffect?
+You can have multiple useEffects in your code and this is completely fine! As hooks docs say, you should separate concerns. 
+-Multiple hooks rule also applies to useState - you can have multiple useState in one component to separate different part of the state, you don't have to build one complicated state object.
+
+21)Where we can use Virtual Dom?
+*A virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM) used in declarative 
+*web frameworks such as React, Vue.js, and Elm. 
+*Updating the virtual DOM is comparatively faster than updating the actual DOM (via js). 
+*Thus, the framework is free to make unnecessary changes to the virtual DOM relatively cheaply.
+
+22)ES6 Function?
+*Functions are the building blocks of readable, maintainable, and reusable code. 
+*Functions are defined using the function keyword. 
+*Following is the syntax for defining a standard function.
+
+23).Error vs Exception Difference? 
+
+		Errors							Exceptions
+1.The error indicates trouble that primarily
+occurs due to the scarcity of system resources. 1.The exceptions are the issues that can appear at runtime and compile time.
+2.It is not possible to recover from an error. 	2.It is possible to recover from an exception.
+3.In java, all the errors are unchecked.	3.In java, the exceptions can be both checked and unchecked.
+4.The system in which the program 
+is running is responsible for errors.	        4.The code of the program is accountable for exceptions.
+5.They are described in the 
+java.lang.Error package.			5.They are described in java.lang.Exception package
+
+24)How can we find the prime no.?
+By the definition of a prime number, we know that the prime numbers have only two 
+factors present in it. The two factors would be 1 and the original number itself. 
+Hence, we need to find here the numbers which consist of only two factors. This is 
+possible by using a simple method, which is called prime factorisation.
+
+25) Which methods can we use to pick the element randomly from the arraylist?
+*ArrayList is a part of collection framework and is present in java.util package. 
+*It provides us with dynamic arrays in Java.
+*Generating random numbers from the list have a good utility value 
+*There are various methods to get a random element from the ArrayList:
+-Using Math.random()
+-Using ArrayList Shuffle
+-Using Random class
+
